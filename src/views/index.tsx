@@ -1,5 +1,6 @@
 import { StyleSheet, Text, View } from "react-native";
-import { translate } from "../translate";
+import { translate } from "@/translate";
+import colors from "@/theme/colors";
 
 export default function Page() {
   return (
@@ -8,7 +9,9 @@ export default function Page() {
         <Text style={styles.title}>
           {translate('base.hello-world')}
         </Text>
-        <Text style={styles.subtitle}>This is the first page of your app.</Text>
+        <Text style={styles.subtitle}>
+          {translate('base.description')}
+        </Text>
       </View>
     </View>
   );
@@ -27,11 +30,13 @@ const styles = StyleSheet.create({
     marginHorizontal: "auto",
   },
   title: {
-    fontSize: 64,
+    fontSize: 60,
     fontWeight: "bold",
+    fontFamily: "Walsheim-Bold"
   },
   subtitle: {
     fontSize: 36,
-    color: "#38434D",
+    color: colors.secondary,
+    fontFamily: "Walsheim-Regular"
   },
 });
