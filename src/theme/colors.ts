@@ -5,4 +5,5 @@ export default {
   iconBlack: '#1D1D1D',
   secondary: '#38434D',
   background: '#F2F2F2',
+  iconBackground: '#F7F7F7',
 }

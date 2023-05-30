@@ -1,6 +1,8 @@
 {
   "base": {
     "hello-world": "Hello World",
-    "description": "This is the first page of your app."
+    "description": "This is the first page of your app.",
+    "saving": "Saving",
+    "expense": "Expense"
   }
 }

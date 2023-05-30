@@ -14,8 +14,10 @@ export default function Header() {
 const styles = StyleSheet.create({
   header: {
     paddingTop: 18,
+    paddingBottom: 10,
     flexDirection: 'row',
     justifyContent: 'space-between',
+    backgroundColor: colors.background,
   },
   title: {
     fontSize: 24,
